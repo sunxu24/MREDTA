@@ -24,10 +24,10 @@ Code dependencies:
 `Network_test.py` provides DTA scores between drugs and targets in test set as a csv file.
 
 
-## models
+## BERT Model
 
 Here is the pre-trained BERT model we use for drugs. The BERT model should be put in the folder `pre-trained_BERTmodel`.
 
-[models](https://huggingface.co/dmis-lab/biobert-v1.1)  
+[model](https://huggingface.co/dmis-lab/biobert-v1.1)  
 
 
