@@ -14,7 +14,7 @@ Code dependencies:
 ## Files
 `bert_result.py` is the feature extractor we use to convert drug SMILES and protein sequences into features extracted by BERT.
 
-`MREDTA.py` contains the model and the main function for training and testing.
+`MREDTA.py` contains the model and the main function for training and validation.
 
 `emetrics.py` is the calculating tool for MSE, CI, and $r_m^2$.
 
