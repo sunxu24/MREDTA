@@ -1,6 +1,5 @@
 # MREDTA
-
-In this work, we build a new neural network based on Transformer Encoder and BERT to predicting DTA score. We train the model on KIBA and Davis Dataset and the model shows state-of-the-art performance compared to 10 existing neural network methodologies.
+In this work, we developed a promising deep learning model to predict DTA based on BERT and Transformer (MREDTA). We evaluate the performance of the MREDTA on KIBA and Davis datasets, and the results show that MREDTA have superior performance compared to ten advanced models.
 
 ## Requirements
 Code dependencies:
@@ -13,13 +12,13 @@ Code dependencies:
 
 
 ## Files
-`bert_result.py` is the feature extractor we use to convert drug and protein sequences into features extracted by BERT.
+`bert_result.py` is the feature extractor we use to convert drug SMILES and protein sequences into features extracted by BERT.
 
 `MREDTA.py` contains the model and the main function for training and testing.
 
 `emetrics.py` is the calculating tool for MSE, CI, and $r_m^2$.
 
-`DataHelper.py` helps to convert drug and protein sequences into digital sequences through drug and protein vocabularies.
+`DataHelper.py` helps to convert drug SMILES and protein sequences into digital sequences through drug and protein vocabularies.
 
 `Network_test.py` provides DTA scores between drugs and targets in test set as a csv file.
 
