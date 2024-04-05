@@ -26,7 +26,7 @@ Code dependencies:
 
 ## BERT Model
 
-Here is the pre-trained BERT model we use for drugs. The BERT model should be put in the folder `pre-trained_BERTmodel`.
+Here is the pre-trained BERT model we use for drugs. The BERT model should be put in the folder `pre-trained_BERTmodel` which should be placed in the same directory as the other code files.
 
 [model](https://huggingface.co/dmis-lab/biobert-v1.1)  
 
