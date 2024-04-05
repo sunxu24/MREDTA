@@ -6,9 +6,12 @@ A brief description of what this project does and who it's for.
 
 First, install CUDA 10.2 and CUDNN 8.2.0.
 Second, install Anaconda3. Please refer to https://www.anaconda.com/distribution/ to install Anaconda3.
+
 Third, install PyCharm. Please refer to https://www.jetbrains.com/pycharm/download/#section=windows.
+
 Fourth, open Anaconda Prompt to create a virtual environment by the following command:
-	conda env create -n env_name -f environment.yml
+	'<conda env create -n env_name -f environment.yml>'
+ 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
@@ -24,9 +27,9 @@ What things you need to install the software and how to install them.
 
 ## Usage
 
-First, put folder data_kiba, DataHelper.py, emetrics.py, bert_result.py and MREDTA.py into the same folder.
-Second, run python bert_result.py in the environment to get features of drug and protein.
-Third, modify codes in Demo.py to set the path for loading data and the path for saving the trained model. The details are as follows:
+First, put folder data_kiba, DataHelper.py, emetrics.py, bert_result.py and MREDTA.py into the same folder.\\
+Second, run python bert_result.py in the environment to get features of drug and protein.\\
+Third, modify codes in Demo.py to set the path for loading data and the path for saving the trained model. The details are as follows:\\
   line 249 in Demo.py
   line 268 in Demo.py
 Fourth, open Anaconda Prompt and enter the following command:
